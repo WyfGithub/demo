@@ -1,0 +1,10 @@
+mybatis:
+  type-aliases-package: com.mybaits.demo.entity
+  mapper-locations: mapper/*.xml
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.1.118:1433;DatabaseName=activiti-test
+    username: sa
+    password: sa@12345
+    type: com.alibaba.druid.pool.DruidDataSource
